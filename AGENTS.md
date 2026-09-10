@@ -35,6 +35,16 @@ This file provides guidance to coding agents when working with code in this repo
   requirement intact — typos, dead links, formatting, rewording that changes no
   `MUST` — are still `docs`
 
+## Skills
+
+Depth lives in `skills/` (reached by Claude Code through the `.claude/skills` symlink), so
+this file carries invariants and the skills carry procedure. Reach for one before working in
+its area:
+
+| skill            | when                                                          |
+| ---------------- | ------------------------------------------------------------- |
+| `review-changes` | reviewing a pull request — also what the review workflow runs |
+
 ## Commands
 
 - Run `pnpm install` to install all dependencies
