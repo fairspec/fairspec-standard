@@ -28,6 +28,7 @@
     "@types/react": "19.0.0",
     "@types/react-dom": "19.0.0",
     "@typescript/native-preview": "7.0.0-dev.20260507.1",
+    "cn": "0.2.6",
     "conventional-changelog-conventionalcommits": "9.1.0",
     "execa": "9.6.1",
     "lefthook": "2.1.1",
